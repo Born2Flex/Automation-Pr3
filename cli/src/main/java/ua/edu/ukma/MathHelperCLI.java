@@ -1,5 +1,7 @@
 package ua.edu.ukma;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+//import com.google.common.base.Joiner;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import ua.edu.ukma.calculations.Evaluator;
@@ -16,6 +18,10 @@ import java.util.Scanner;
 public class MathHelperCLI {
     private static MathService mathService;
     private static final Logger log = LoggerFactory.getLogger(MathHelperCLI.class);
+
+//    private static Joiner.MapJoiner joiner;
+//    private static ObjectMapper mapper;
+
     public static void main(String[] args) {
         try {
             mathService = initialize();

@@ -1,6 +1,5 @@
 package ua.edu.ukma;
 
-
 import ua.edu.ukma.calculations.Evaluator;
 import ua.edu.ukma.calculations.Parser;
 import ua.edu.ukma.dto.EquationDto;
